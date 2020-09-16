@@ -6,19 +6,9 @@ import json
 import mysql.connector
 
 config = {
-  'user': 'sometrend_prod',
-  'password': 'daumsoft0531!', 
-  'host': '10.1.51.35', 
-  'database': 'sometrend_prod', 
-  'port': '3306'
 }
 
 to_config = {
-  'user': 'sometrend_analysis_prod',
-  'password': 'sometrend_analysis_prod@2020', 
-  'host': '10.1.51.35', 
-  'database': 'sometrend_analysis_prod', 
-  'port': '3306'
 }
 
 conn = mysql.connector.connect(**config)
